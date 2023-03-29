@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App bg-[#EDF2F8] xl:h-screen flex justify-center items-center">
       {/* GRID */}
-      <div className="grid gap-4 grid-cols-1 grid-rows-none xl:grid-cols-4 xl:grid-rows-2 mt-20 xl:mt-0 mx-10">
+      <div className="grid gap-4 grid-cols-1 grid-rows-none xl:grid-cols-4 xl:grid-rows-2 my-20 xl:my-0 mx-10">
         {/* CARD */}
         <div className="flex flex-col bg-purple-600 xl:col-span-2 p-8 rounded-xl relative ">
           <img className="absolute right-20 z-0" src={quotationBg} alt="" />
@@ -70,7 +70,7 @@ function App() {
             best investments I've made in myself. ”
           </p>
         </div>
-        <div className="flex flex-col bg-white p-8 rounded-xl relative xl:row-span-2">
+        <div className="flex flex-col bg-white p-8 rounded-xl relative xl:row-span-2 row-end-6">
           <div className="flex items-center z-10">
             <img
               className="h-10 w-10 border-2 border-white border-opacity-40 mr-5 rounded-full"
