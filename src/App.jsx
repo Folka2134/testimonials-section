@@ -2,6 +2,9 @@ import "./App.css";
 
 import danielAvatar from "./assets/image-daniel.jpg";
 import jonathanAvatar from "./assets/image-jonathan.jpg";
+import kiraAvatar from "./assets/image-kira.jpg";
+import jeanetteAvatar from "./assets/image-jeanette.jpg";
+import patrickAvatar from "./assets/image-patrick.jpg";
 import quotationBg from "./assets/bg-pattern-quotation.svg";
 
 function App() {
@@ -64,12 +67,97 @@ function App() {
           <p className="text-sm text-white text-opacity-70 font-semibold">
             “ I started as a total newbie with virtually no coding skills. I now
             work as a mobile engineer for a big company. This was one of the
-            best investments I’ve made in myself. ”
+            best investments I've made in myself. ”
           </p>
         </div>
-        <div className="bg-blue-400 xl:row-span-2">3</div>
-        <div className="bg-red-400">4</div>
-        <div className="bg-yellow-400 xl:col-span-2">5</div>
+        <div className="flex flex-col bg-white p-8 rounded-xl relative xl:row-span-2">
+          <div className="flex items-center z-10">
+            <img
+              className="h-10 w-10 border-2 border-white border-opacity-40 mr-5 rounded-full"
+              src={kiraAvatar}
+              alt="avatar"
+            />
+            <div>
+              <p className="text-sm font-semibold text-gray-600">
+                Kira Whittle
+              </p>
+              <p className="text-xs font-semibold text-gray-600 text-opacity-50">
+                Verified Graduate
+              </p>
+            </div>
+          </div>
+          <h4 className="text-xl text-gray-600 font-semibold py-4 z-10">
+            Such a life-changing experience. Highly recommended!
+          </h4>
+          <p className="text-sm text-gray-600 text-opacity-70 font-semibold">
+            “ Before joining the bootcamp, I've never written a line of code. I
+            needed some structure from professionals who can help me learn
+            programming step by step. I was encouraged to enroll by a former
+            student of theirs who can only say wonderful things about the
+            program. The entire curriculum and staff did not disappoint. They
+            were very hands-on and I never had to wait long for assistance. The
+            agile team project, in particular, was outstanding. It took my
+            learning to the next level in a way that no tutorial could ever
+            have. In fact, I've often referred to it during interviews as an
+            example of my developent experience. It certainly helped me land a
+            job as a full-stack developer after receiving multiple offers. 100%
+            recommend! ”
+          </p>
+        </div>
+        <div className="flex flex-col bg-white p-8 rounded-xl relative">
+          <div className="flex items-center z-10">
+            <img
+              className="h-10 w-10 border-2 border-white border-opacity-40 mr-5 rounded-full"
+              src={jeanetteAvatar}
+              alt="avatar"
+            />
+            <div>
+              <p className="text-sm font-semibold text-gray-600">
+                Jeanette Harmon
+              </p>
+              <p className="text-xs font-semibold text-gray-600 text-opacity-50">
+                Verified Graduate
+              </p>
+            </div>
+          </div>
+          <h4 className="text-xl text-gray-600 font-semibold py-4 z-10">
+            An overall wonderful and rewarding experience
+          </h4>
+          <p className="text-sm text-gray-600 text-opacity-70 font-semibold">
+            “ Thank you for the wonderful experience! I now have a job I really
+            enjoy, and make a good living while doing something I love. ”
+          </p>
+        </div>
+        <div className="flex flex-col bg-[#19212E] p-8 rounded-xl relative xl:col-span-2">
+          <div className="flex items-center z-10">
+            <img
+              className="h-10 w-10 border-2 border-white border-opacity-40 mr-5 rounded-full"
+              src={patrickAvatar}
+              alt="avatar"
+            />
+            <div>
+              <p className="text-sm font-semibold text-gray-200">
+                Patrick Abrams
+              </p>
+              <p className="text-xs font-semibold text-gray-200 text-opacity-50">
+                Verified Graduate
+              </p>
+            </div>
+          </div>
+          <h4 className="text-xl text-gray-200 font-semibold py-4 z-10">
+            Awesome teaching support from TAs who did the bootcamp themselves.
+            Getting guidance from them and learning from their experiences was
+            easy.
+          </h4>
+          <p className="text-sm text-gray-200 text-opacity-70 font-semibold">
+            “ The staff seem genuinely concerned about my progress which I find
+            really refreshing. The program gave me the confidence necessary to
+            be able to go out in the world and present myself as a capable
+            junior developer. The standard is above the rest. You will get the
+            personal attention you need from an incredible community of smart
+            and amazing people. ”
+          </p>
+        </div>
       </div>
     </div>
   );
